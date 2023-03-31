@@ -1,0 +1,1496 @@
+*{margin: 0%;
+padding: 0%;
+font-family: 'Montserrat', sans-serif;}
+
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+
+
+.content{
+    margin-left: 5%;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+main {
+    z-index: 1000;
+height: 80vh;
+
+    background-image: url("main-foto.jpg");
+    background-repeat:no-repeat;
+    background-attachment: absolute;
+    background-size: cover;
+    background-size: 110%;
+    background-position-y:-150px;
+    background-position-x:-100px;
+
+
+    
+    min-width: 100%;
+max-width: 100%;
+    max-height: 110vh;
+  }
+
+
+  .text p{
+    font-size: 60px;
+
+
+  }
+
+
+
+
+
+
+
+
+/*AQUI INICIA O HEADER*/
+.logo_header{
+    width: 200px;
+}
+#logo_als{
+    width: 150px;
+}
+
+.header {
+
+margin: 0px 0px  50px  0%;
+    width: 40%;
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+
+padding: 2% 3%;}
+
+.navegacao_header{
+    font-weight: 500;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+}
+
+.navegacao_header a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.btn_icon_header{
+    background-color: transparent;
+    border: 0;
+    display: none;
+}
+
+
+
+
+
+
+/*AQUI COMEÇA O CONTENT*/
+
+#title1{
+    color: white;
+
+    font-size: 50PX;
+    font-weight: 350;
+    
+}
+#paragrafo1{
+    font-size: 20px;
+    max-width: 50%;
+    max-height: 40%;
+    color: white;}
+
+    #button-main{
+color: #0467eb;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 15px;
+        border-radius: 35px;
+        border: 0px;
+        font-size: 20px;
+        font-weight: 600;
+        box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.274);
+    }
+    .main2{
+        display: flex;
+        justify-content: space-between;
+    }
+#square-white{
+    color: #093f86;
+  width: 47%;
+    flex-direction: row-reverse;
+    background-color: #ccf9ff;
+    padding: 40px;
+    z-index: -200;
+
+}
+
+#square-blue button{
+background-color: #0467eb;
+color: white;
+  }
+
+
+
+/*MAIN 2*/
+
+.text-m{
+    color: #093f86;
+}
+#square-blue{
+    color: #093f86;
+    border-radius: 0px 0px 0px 25px;
+  width: 47%;
+    flex-direction: row-reverse;
+    padding: 40px;
+
+}
+
+.square-buttons{
+    margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 8px;
+        border-radius: 25px;
+        border: 0px;
+        font-size: 15px;
+        font-weight: 500;
+        box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.16);
+}
+/*MAIN 3*/
+.main3{
+    display: flex;
+    justify-content: space-between;
+}
+    #planosdetodobrasil{
+        max-width: 50%;
+    }
+
+    #main3-p{
+        background-color: white;
+        max-width: 70%;
+        
+    }
+    #text-main3{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    #text-main3 h1{
+
+        font-weight: 500;
+        color: #093f86;
+        font-size: 45px;
+        
+    }
+    #planosdetodobrasil{
+        max-width: 40%;
+        margin-right: 5%;
+    }
+
+    /*MAIN CAD*/
+
+
+    #main-cad{
+        box-shadow: 60px -6px 20px rgb(80, 79, 79);
+        margin-left: 5%;
+        border-radius: 50px 0px 0px 50px;
+        justify-content: right;
+        width: 100%;
+        height: 80vh;
+        background-image: url("main-cad.jpg");
+        background-repeat:no-repeat;
+        background-attachment: absolute;
+        background-size: cover;
+        background-position-y: -100px;
+    
+        max-height: 80vh;
+      }
+
+#main-cad{
+    display:flex ;
+}
+      #text-maincad{
+        margin-left: 50%;
+
+color: white;
+        margin-top: auto;
+        margin-bottom:auto ;
+      }
+
+
+      #text-maincad h1{
+        
+        font-size: 45px;}
+
+
+        #maincad-p{
+            
+            max-width: 60%;}
+
+            #main4{
+width: 100%;
+height: 80vh;
+                margin-top: -200px;
+                display: flex;
+                justify-content: space-between;
+                
+
+        background-image: url("mulher-suporte.png");
+        background-repeat:no-repeat;
+        background-attachment: absolute;
+        background-size: cover;
+        margin-top: auto;
+        margin-bottom: auto;
+            }
+
+    /*MAIN 4*/
+
+    #main4-img{
+        max-width: 100%;
+
+    }
+
+    #text-main4{
+        color: #093f86;
+        margin-left: 5%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    #text-main4 h1{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 45px;}
+
+
+        #main4-p{
+            margin-top: auto;
+            margin-bottom: auto;
+            max-width: 50%;}
+
+            #main4{
+                margin-top: -50px;
+                margin-bottom: auto;
+                display: flex;
+                justify-content: space-between;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*inicio PARA DISPOSITIVOS MOVEIS*/
+
+@media screen and (max-width: 600px){
+
+
+/*INICIO DA PERSONALIZAÇÃO DO MAIN*/
+    main {
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+        border-radius: 0px;
+        z-index: 1000;
+    height: 70vh;
+        background-color: #ccf9ff;
+        border-radius: 0px 0px 0px 150px;
+        background-image: url("main-foto-768.jpg");
+        background-repeat:no-repeat;
+        background-attachment: absolute;
+        background-size: 300% ;
+        background-position-x:20%;
+        text-align: center;
+        vertical-align: middle;
+    
+
+      }
+
+
+
+
+      #text-main-div{
+        vertical-align: middle;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+      #title1{
+        font-size: 40px;
+      }
+    
+      #paragrafo1{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+      }
+
+
+
+
+
+
+
+
+      /*INICIO DA PERSONALIZAÇÃO DO MAIN 3*/
+
+
+      .main3{
+        margin-top: 60px;
+        display:block;
+        justify-content: cover;
+        text-align: center;
+    }
+
+    #planosdetodobrasil{
+        display: none;
+    }
+
+
+    #planosdetodobrasil2{
+        max-width: 80%;
+    }
+
+    #text-main3 h1{
+        margin-top: -20px;
+        font-size: 35px;
+    }
+
+
+    #text-main3 p{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+
+
+
+
+          /*INICIO DA PERSONALIZAÇÃO DO MAIN CAD*/
+
+
+    #main-cad{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        height: auto;
+        display: block;
+        background: rgb(73,73,255);
+        background: linear-gradient(180deg, rgba(73,73,255,1) 2%, rgba(11,166,198,1) 100%);
+    text-align: center;
+}
+
+
+
+
+
+
+#text-maincad{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    #text-maincad h1{
+        margin: 0px;        text-align: center;
+        
+        font-size: 35px;}
+
+        #text-maincad p{
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 80%;}
+
+
+            #main-cad BUtton{
+                padding: 15px;
+                margin-bottom: 20px;
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+          /*INICIO DA PERSONALIZAÇÃO DO MAIN 4*/
+
+            #main4{
+                background-image: none;
+                margin-top: -50px;
+                margin-bottom: auto;
+                display: block;
+            }
+
+
+
+            #text-main4{
+                text-align: center;
+                margin-top:-30px ;
+                margin-bottom: auto;
+                }
+
+            #text-main4 h1{
+
+                font-size: 35px;}
+
+                #text-main4 p{
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 80%;
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    #main5{
+                        background: rgb(73,73,255);
+    background: linear-gradient(0deg, rgba(73,73,255,1) 2%, rgba(11,166,198,1) 74%, rgba(255,255,255,1) 98%);
+                        margin-top: 150px;
+                        margin-bottom: auto;
+                        display: block;
+                    }
+        
+        
+        
+                    #text-main5{
+                        color: azure;
+                        text-align: center;
+
+                        margin-bottom: auto;
+                        }
+        
+                    #text-main5 h1{
+        
+                        font-size: 35px;}
+        
+                        #text-main5 p{
+                            margin-left: auto;
+                            margin-right: auto;
+                            max-width: 80%;
+                            }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+    main {
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+        border-radius: 0px;
+        z-index: 1000;
+    height: 70vh;
+        background-color: #ccf9ff;
+        border-radius: 0px 0px 0px 150px;
+        background-image: url("main-foto-768.jpg");
+        background-repeat:no-repeat;
+        background-attachment: absolute;
+        background-size: 300% ;
+        background-position-x:20%;
+        text-align: center;
+        vertical-align: middle;
+    
+
+      }
+
+
+
+
+      #text-main-div{
+        vertical-align: middle;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+      #title1{
+        font-size: 40px;
+      }
+    
+      #paragrafo1{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+      }
+
+
+
+
+
+
+
+
+      /*INICIO DA PERSONALIZAÇÃO DO MAIN 3*/
+
+
+      .main3{
+
+        margin-top: 90px;
+        display:block;
+        justify-content: cover;
+        text-align: center;
+    }
+
+    #planosdetodobrasil{
+        display: none;
+    }
+
+
+    #planosdetodobrasil2{  
+        max-width: 80%;
+    }
+
+    #text-main3 h1{
+        margin-top: -20px;
+        font-size: 35px;
+    }
+
+
+    #text-main3 p{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+
+
+
+
+          /*INICIO DA PERSONALIZAÇÃO DO MAIN CAD*/
+
+
+    #main-cad{
+        margin-top: 70px;
+        height: auto;
+        display: block;
+        background: rgb(73,73,255);
+        background: linear-gradient(180deg, rgba(73,73,255,1) 2%, rgba(11,166,198,1) 100%);
+    text-align: center;
+}
+
+
+
+
+
+
+#text-maincad{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    #text-maincad h1{
+        margin: 0px;        text-align: center;
+        
+        font-size: 35px;}
+
+        #text-maincad p{
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 80%;}
+
+
+            #main-cad BUtton{
+                padding: 15px;
+                margin-bottom: 20px;
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+          /*INICIO DA PERSONALIZAÇÃO DO MAIN 4*/
+
+            #main4{
+                background-image: none;
+                margin-top: -50px;
+                margin-bottom: auto;
+                display: block;
+            }
+
+
+
+            #text-main4{
+                text-align: center;
+                margin-top:-40px ;
+                margin-bottom: auto;
+                }
+
+            #text-main4 h1{
+
+                font-size: 35px;}
+
+                #text-main4 p{
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 80%;
+                    }
+
+#suporte-ilustra{
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+                    #main5{
+                        background: rgb(73,73,255);
+background: linear-gradient(0deg, rgba(73,73,255,1) 2%, rgba(11,166,198,1) 74%, rgba(255,255,255,1) 98%);
+                        margin-top: 150px;
+                        margin-bottom: auto;
+                        display: block;
+
+                    }
+        
+        
+        
+                    #text-main5{
+                        color: azure;
+                        text-align: center;
+
+                        margin-bottom: auto;
+                        }
+        
+                    #text-main5 h1{
+        
+                        font-size: 35px;}
+        
+                        #text-main5 p{
+                            margin-left: auto;
+                            margin-right: auto;
+                            max-width: 80%;
+                            }
+
+
+
+
+
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+    body{
+        background-color: white;
+        font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .content{
+        margin-left: 5%;
+    }
+    
+    
+    
+    img{
+        max-width: 100%;
+    }
+    main {
+         text-align: initial;
+        z-index: 1000;
+    height: 80vh;
+    
+        background-image: url("main-foto.jpg");
+        background-repeat:no-repeat;
+        background-attachment: absolute;
+        background-size: cover;
+        background-size: 150%;
+        background-position-y:-10px;
+        background-position-x:-230px;
+    
+    
+        
+        min-width: 100%;
+    max-width: 100%;
+        max-height: 110vh;
+      }
+    
+    
+      .text p{
+       
+        font-size: 60px;
+    
+    
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*AQUI INICIA O HEADER*/
+    .logo_header{
+        width: 200px;
+    }
+    #logo_als{
+        width: 150px;
+    }
+    
+    .header {
+    
+    margin: 0px 0px  50px  0%;
+        width: 40%;
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding: 2% 3%;}
+    
+    .navegacao_header{
+        font-weight: 500;
+        font-size: larger;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3em;
+    }
+    
+    .navegacao_header a{
+        color:white;
+        text-decoration: none;
+    }
+    
+    
+    .btn_icon_header{
+        background-color: transparent;
+        border: 0;
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    /*AQUI COMEÇA O CONTENT*/
+    
+    #title1{
+        color: white;
+    
+        font-size: 50PX;
+        font-weight: 350;
+        
+    }
+    #paragrafo1{
+        margin-left: 0px;
+        font-size: 20px;
+        max-width: 50%;
+        max-height: 40%;
+        color: white;}
+    
+        #button-main{
+    color: #0467eb;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            padding: 15px;
+            border-radius: 35px;
+            border: 0px;
+            font-size: 20px;
+            font-weight: 600;
+            box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.274);
+        }
+        .main2{
+            display: flex;
+            justify-content: space-between;
+        }
+    #square-white{
+        color: #093f86;
+      width: 47%;
+        flex-direction: row-reverse;
+        background-color: #ccf9ff;
+        padding: 40px;
+        z-index: -200;
+    
+    }
+    
+    #square-blue button{
+    background-color: #0467eb;
+    color: white;
+      }
+    
+    
+    
+    /*MAIN 2*/
+    
+    .text-m{
+        color: #093f86;
+    }
+    #square-blue{
+        color: #093f86;
+        border-radius: 0px 0px 0px 25px;
+      width: 47%;
+        flex-direction: row-reverse;
+        padding: 40px;
+    
+    }
+    
+    .square-buttons{
+        margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 8px;
+            border-radius: 25px;
+            border: 0px;
+            font-size: 15px;
+            font-weight: 500;
+            box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.16);
+    }
+    /*MAIN 3*/
+    .main3{
+        display: block;
+
+    }
+        #planosdetodobrasil{
+            max-width: 50%;
+        }
+    
+        #main3-p{
+            background-color: white;
+            max-width: 70%;
+            
+        }
+        #text-main3{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        #text-main3 h1{
+    
+            font-weight: 500;
+            color: #093f86;
+            font-size: 45px;
+            
+        }
+        #planosdetodobrasil{
+            max-width: 40%;
+            margin-right: 5%;
+        }
+    
+        /*MAIN CAD*/
+    
+    
+        #main-cad{
+            box-shadow: 60px -6px 20px rgb(80, 79, 79);
+            margin-left: 5%;
+            border-radius: 50px 0px 0px 50px;
+            justify-content: right;
+            width: 100%;
+            height: 80vh;
+            background-image: url("main-cad.jpg");
+            background-repeat:no-repeat;
+            background-attachment: absolute;
+            background-size: 180%;
+            background-position-y: -100px;
+            background-position-x: -100px;
+        
+            max-height: 80vh;
+          }
+    
+
+
+
+
+
+          #text-maincad{
+            display: block;
+            align-items: left;
+          }
+          .text-cad{
+            text-align: initial;
+        
+          }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #suporte-ilustra{
+        display: none;
+    }
+                #main4{
+                    
+    width: 100%;
+    height: 80vh;
+                    margin-top: -200px;
+                    display: flex;
+                    justify-content: space-between;
+                    
+    
+            background-image: url("mulher-suporte.png");
+            background-repeat:no-repeat;
+            background-attachment: absolute;
+            background-position-x:-180px;
+            background-size: cover;
+            margin-top: auto;
+            margin-bottom: auto;
+                }
+    
+        /*MAIN 4*/
+    
+        #main4-img{
+            max-width: 100%;
+    
+        }
+    
+        #text-main4{
+            text-align: initial;
+            color: #093f86;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        #text-main4 h1{
+            font-size: 45px;}
+    
+    
+            #main4-p{
+                margin-left: -5%;
+                max-width: 50%;}
+    
+                #main4{
+                    margin-top: -50px;
+                    margin-bottom: auto;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+                #main5{
+                    background: rgb(73,73,255);
+background: linear-gradient(0deg, rgba(73,73,255,1) 2%, rgba(11,166,198,1) 74%, rgba(255,255,255,1) 98%);
+                    margin-top: 150px;
+                    margin-bottom: auto;
+                    display: block;
+                }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+
+
+    body{
+        background-color: white;
+        font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .content{
+        margin-left: 5%;
+    }
+    
+    
+    
+    img{
+        max-width: 100%;
+    }
+    main {
+         text-align: initial;
+        z-index: 1000;
+    height: 80vh;
+    
+        background-image: url("main-foto.jpg");
+        background-repeat:no-repeat;
+        background-attachment: absolute;
+        background-size: cover;
+        background-size: 130%;
+        background-position-y:-50px;
+        background-position-x:-230px;
+    
+    
+        
+        min-width: 100%;
+    max-width: 100%;
+        max-height: 110vh;
+      }
+    
+    
+      .text p{
+       
+        font-size: 60px;
+    
+    
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*AQUI INICIA O HEADER*/
+    .logo_header{
+        width: 200px;
+    }
+    #logo_als{
+        width: 150px;
+    }
+    
+    .header {
+    
+    margin: 0px 0px  50px  0%;
+        width: 40%;
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding: 2% 3%;}
+    
+    .navegacao_header{
+        font-weight: 500;
+        font-size: larger;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3em;
+    }
+    
+    .navegacao_header a{
+        color:white;
+        text-decoration: none;
+    }
+    
+    
+    .btn_icon_header{
+        background-color: transparent;
+        border: 0;
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    /*AQUI COMEÇA O CONTENT*/
+    
+    #title1{
+        color: white;
+    
+        font-size: 50PX;
+        font-weight: 350;
+        
+    }
+    #paragrafo1{
+        margin-left: 0px;
+        font-size: 20px;
+        max-width: 50%;
+        max-height: 40%;
+        color: white;}
+    
+        #button-main{
+    color: #0467eb;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            padding: 15px;
+            border-radius: 35px;
+            border: 0px;
+            font-size: 20px;
+            font-weight: 600;
+            box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.274);
+        }
+        .main2{
+            display: flex;
+            justify-content: space-between;
+        }
+    #square-white{
+        color: #093f86;
+      width: 47%;
+        flex-direction: row-reverse;
+        background-color: #ccf9ff;
+        padding: 40px;
+        z-index: -200;
+    
+    }
+    
+    #square-blue button{
+    background-color: #0467eb;
+    color: white;
+      }
+    
+    
+    
+    /*MAIN 2*/
+    
+    .text-m{
+        color: #093f86;
+    }
+    #square-blue{
+        color: #093f86;
+        border-radius: 0px 0px 0px 25px;
+      width: 47%;
+        flex-direction: row-reverse;
+        padding: 40px;
+    
+    }
+    
+    .square-buttons{
+        margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 8px;
+            border-radius: 25px;
+            border: 0px;
+            font-size: 15px;
+            font-weight: 500;
+            box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.16);
+    }
+    /*MAIN 3*/
+    .main3{
+        display: flex;
+        justify-content: space-between;
+    }
+        #planosdetodobrasil{
+            max-width: 50%;
+        }
+    
+        #main3-p{
+            background-color: white;
+            max-width: 70%;
+            
+        }
+        #text-main3{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        #text-main3 h1{
+    
+            font-weight: 500;
+            color: #093f86;
+            font-size: 45px;
+            
+        }
+        #planosdetodobrasil2{
+            max-width: 60%;
+            margin-right: 5%;
+        }
+    
+        /*MAIN CAD*/
+    
+    
+        #main-cad{
+            box-shadow: 60px -6px 20px rgb(80, 79, 79);
+            margin-left: 5%;
+            border-radius: 50px 0px 0px 50px;
+            justify-content: right;
+            width: 100%;
+            height: 80vh;
+            background-image: url("main-cad.jpg");
+            background-repeat:no-repeat;
+            background-attachment: absolute;
+            background-size: cover;
+            background-position-y: -100px;
+        
+            max-height: 80vh;
+          }
+    
+    #main-cad{
+        display:flex ;
+    }
+          #text-maincad{
+            margin-left: 50%;
+    
+    color: white;
+            margin-top: auto;
+            margin-bottom:auto ;
+          }
+    
+    
+          #text-maincad h1{
+            
+            font-size: 45px;}
+    
+    
+            #maincad-p{
+                
+                max-width: 60%;}
+    
+                #main4{
+    width: 100%;
+    height: 80vh;
+                    margin-top: -200px;
+                    display: flex;
+                    justify-content: space-between;
+                    
+    
+            background-image: url("mulher-suporte.png");
+            background-repeat:no-repeat;
+            background-attachment: absolute;
+            background-size: cover;
+            margin-top: auto;
+            margin-bottom: auto;
+                }
+    
+        /*MAIN 4*/
+    
+        #main4-img{
+            max-width: 100%;
+    
+        }
+    
+        #text-main4{
+            color: #093f86;
+            margin-left: 5%;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        #text-main4 h1{
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: 45px;}
+    
+    
+            #main4-p{
+                margin-top: auto;
+                margin-bottom: auto;
+                max-width: 50%;}
+    
+                #main4{
+                    margin-top: -50px;
+                    margin-bottom: auto;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+
+                #main5{
+                    background: rgb(73,73,255);
+background: linear-gradient(0deg, rgba(73,73,255,1) 2%, rgba(11,166,198,1) 74%, rgba(255,255,255,1) 98%);
+                    margin-top: 150px;
+                    margin-bottom: auto;
+                    display: block;
+                }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+    body{
+        background-color: rgb(255, 81, 0);
+    }
+}
+/*final PARA DISPOSITIVOS MOVEIS*/
